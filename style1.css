@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007acc;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.container {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+h1 {
+    font-size: 24pt;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: #007acc;
+}
+
+p {
+    font-size: 14pt;
+    margin-bottom: 2rem;
+}
+
+/* Button */
+.cta-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 14pt;
+    border: none;
+    border-radius: 5px;
+    background-color: #007acc;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #005c99;
+}

@@ -1,0 +1,17 @@
+/* External CSS */
+
+.contact-btn {
+    margin-top: 30px;
+    padding: 12px 20px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14pt;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #005b99;
+}
